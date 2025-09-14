@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sikkim's Beauty Gallery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="new-gallery.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <h1 class="logo">ITS SIKKIM</h1>
+      </div>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">BOOK A CAB</a></li>
+        <li><a href="gallery.html">EVENTS</a></li>
+        <li><a href="new-gallery.html">GALLERY</a></li>
+        <li><a href="#">LOGIN/REGISTER</a></li>
+      </ul>
+    </nav>
+
+    <div class="gallery-container">
+      <h1>Explore Sikkim's Beauty</h1>
+
+      <div class="gallery-filters">
+        <input type="radio" name="gallery-filter" id="filter-all" checked />
+        <label for="filter-all">All</label>
+
+        <input type="radio" name="gallery-filter" id="filter-nature" />
+        <label for="filter-nature">Natural Beauty</label>
+
+        <input type="radio" name="gallery-filter" id="filter-monasteries" />
+        <label for="filter-monasteries">Monasteries</label>
+      </div>
+
+      <div class="filterable-gallery">
+        <div class="gallery-image nature">
+          <img
+            src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+            alt="Snowy mountains"
+          />
+          <div class="image-caption"><h3>Mountain Peaks</h3></div>
+        </div>
+        <div class="gallery-image nature">
+          <img
+            src="./Images/Lake-Gurudongmar-1-600x312.jpg"
+            alt="Lake in valley"
+          />
+          <div class="image-caption"><h3>Glacial Lakes</h3></div>
+        </div>
+
+        <div class="gallery-image monastery">
+          <img
+            src="https://1001things.org/wp-content/uploads/2019/02/Lingdum-6.jpg"
+            alt="Lingdum Monastery"
+          />
+          <div class="image-caption"><h3>Lingdum Monastery</h3></div>
+        </div>
+        <div class="gallery-image nature">
+          <img
+            src="./Images/bbdb31d01d15ac874481bc3db9457c5e.jpg"
+            alt="Lush green valley"
+          />
+          <div class="image-caption"><h3>Verdant Valleys</h3></div>
+        </div>
+
+        <div class="gallery-image monastery">
+          <img
+            src="https://www.omastrology.com/indian-monasteries/images/enchey-monastery.jpg"
+            alt="Enchey Monastery"
+          />
+          <div class="image-caption"><h3>Enchey Monastery</h3></div>
+        </div>
+        <div class="gallery-image nature">
+          <img src="./Images/1.jpg" alt="Lush green valley" />
+          <div class="image-caption"><h3>Ravangla Park</h3></div>
+        </div>
+        <div class="gallery-image nature">
+          <img
+            src="./Images/1611108770_lachung_city_in_between_the_mountain_ranges.jpg"
+            alt="Lush green valley"
+          />
+          <div class="image-caption"><h3>Lachung Village</h3></div>
+        </div>
+        <div class="gallery-image nature">
+          <img
+            src="https://imgk.timesnownews.com/story/pelling_Twitter_nikkupikku.jpeg"
+            alt="Lush green valley"
+          />
+          <div class="image-caption"><h3>Pelling Skywalk</h3></div>
+        </div>
+        <div class="gallery-image monastery">
+          <img
+            src="https://media-cdn.tripadvisor.com/media/photo-o/15/8f/a0/69/dubdi-gompa-monastery.jpg"
+            alt="Dubdi Monastery"
+          />
+          <div class="image-caption"><h3>Dubdi Monastery</h3></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
